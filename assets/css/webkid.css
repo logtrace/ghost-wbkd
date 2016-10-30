@@ -11,7 +11,7 @@ body * {
 
 #header {
   padding: 0;
-  background: #111;
+  background: #303F9F;
   color: #fff;
   margin-bottom: 2em;
 }
@@ -53,7 +53,7 @@ body * {
 
 #header .taglist-wrapper {
   width: 100%;
-  background: #ffd00e;
+  background: #3F51B5;
   padding: 0;
 }
 
@@ -70,14 +70,14 @@ body * {
   padding: .2em .5em;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-  color: #111;
+  color: #3F51B5;
   font-size: 12px;
   float: left;
   cursor: pointer;
   transition: none;
 }
 #header ul.taglist li:hover {
-  background: #545454;
+  background: #448AFF;
   cursor: pointer;
 }
 #header ul.taglist li:hover a {
@@ -88,6 +88,7 @@ body * {
   text-decoration: none;
   transition: none;
   cursor: pointer;
+  color: #fff;
 }
 
 #content {
@@ -145,7 +146,7 @@ body * {
   color: #111;
 }
 
-#articles .post a, 
+#articles .post a,
 #articles .post a:visited{
   text-decoration: none;
 }
@@ -218,7 +219,7 @@ body * {
 }
 
 .sidebox .sidebox-title {
-  background: #545454;
+  background: #607D8B;
   padding: .5em 1em;
   color: #fff;
   font-family: "Open Sans", sans-serif;
