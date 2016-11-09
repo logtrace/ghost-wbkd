@@ -103,7 +103,7 @@ body * {
 }
 
 #articles, #article {
-  width: 67%;
+  width: 77%;
   margin-right: 3%;
   float: left;
 }
@@ -152,7 +152,7 @@ body * {
 }
 
 #sidebar {
-  width: 30%;
+  width: 20%;
   float: left;
 }
 
@@ -212,23 +212,28 @@ body * {
 }
 
 .sidebox.latest-articles a .date {
-  font-size: .8em;
+  font-size: 10px;
   color: #9EABB3;
   font-weight: normal;
   margin-bottom: .6em;
 }
 
+.sidebox.latest-articles div {
+  font-size: 14px;
+}
+
 .sidebox .sidebox-title {
-  background: #607D8B;
+  background: #CFD8DC;
   padding: .5em 1em;
-  color: #fff;
+  color: #4A4A4A;
   font-family: "Open Sans", sans-serif;
-  font-size: 22px;
+  font-size: 14px;
   font-weight: bold;
+  text-align: right;
 }
 
 .sidebox.about .sidebox-content {
-  font-size: .9em;
+  font-size: 13px;
   line-height: 1.7;
 }
 
